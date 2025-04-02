@@ -1,3 +1,0 @@
-[submodule "src/robotiq_description"]
-	path = src/robotiq_description
-	url = https://github.com/LearnRoboticsWROS/robotiq_description.git
