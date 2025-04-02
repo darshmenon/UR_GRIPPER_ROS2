@@ -1,0 +1,391 @@
+[0.206s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.206s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc82a1b6c30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc82a15ca70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc82a15ca70>>)
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.274s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/darsh/UR_GRIPPER'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/robotiq_description) by extension 'ros'
+[0.312s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robotiq_description' with type 'ros.ament_cmake' and name 'robotiq_description'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_description) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_description' with type 'ros.ament_cmake' and name 'ur_description'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_gazebo) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_gazebo) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_gazebo) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_gazebo) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_gazebo) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_gazebo) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_gazebo) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_gazebo) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_gazebo' with type 'ros.ament_cmake' and name 'ur_gazebo'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_interfaces) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_interfaces) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_interfaces) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_interfaces) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_interfaces) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_interfaces) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_interfaces) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_interfaces) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_interfaces' with type 'ros.ament_cmake' and name 'ur_interfaces'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_system_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_system_tests) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_system_tests) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_system_tests) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_system_tests) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_system_tests) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_system_tests) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_system_tests) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ur_system_tests) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ur_system_tests' with type 'ros.ament_cmake' and name 'ur_system_tests'
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.350s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/darsh/UR_GRIPPER/install
+[0.352s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 432 installed packages in /opt/ros/jazzy
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_target' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'robotiq_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.507s] DEBUG:colcon.colcon_core.verb:Building package 'robotiq_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darsh/UR_GRIPPER/build/robotiq_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darsh/UR_GRIPPER/install/robotiq_description', 'merge_install': False, 'path': '/home/darsh/UR_GRIPPER/src/robotiq_description', 'symlink_install': False, 'test_result_base': None}
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_args' from command line to 'None'
+[0.507s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.508s] DEBUG:colcon.colcon_core.verb:Building package 'ur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darsh/UR_GRIPPER/build/ur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darsh/UR_GRIPPER/install/ur_description', 'merge_install': False, 'path': '/home/darsh/UR_GRIPPER/src/ur_description', 'symlink_install': False, 'test_result_base': None}
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.508s] DEBUG:colcon.colcon_core.verb:Building package 'ur_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darsh/UR_GRIPPER/build/ur_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darsh/UR_GRIPPER/install/ur_gazebo', 'merge_install': False, 'path': '/home/darsh/UR_GRIPPER/src/ur_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'ur_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'ur_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'ur_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.509s] DEBUG:colcon.colcon_core.verb:Building package 'ur_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darsh/UR_GRIPPER/build/ur_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darsh/UR_GRIPPER/install/ur_interfaces', 'merge_install': False, 'path': '/home/darsh/UR_GRIPPER/src/ur_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'ur_system_tests' build argument 'cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'ur_system_tests' build argument 'cmake_target' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'ur_system_tests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'ur_system_tests' build argument 'cmake_clean_cache' from command line to 'False'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'ur_system_tests' build argument 'cmake_clean_first' from command line to 'False'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'ur_system_tests' build argument 'cmake_force_configure' from command line to 'False'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'ur_system_tests' build argument 'ament_cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'ur_system_tests' build argument 'catkin_cmake_args' from command line to 'None'
+[0.509s] Level 5:colcon.colcon_core.verb:set package 'ur_system_tests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.509s] DEBUG:colcon.colcon_core.verb:Building package 'ur_system_tests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/darsh/UR_GRIPPER/build/ur_system_tests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/darsh/UR_GRIPPER/install/ur_system_tests', 'merge_install': False, 'path': '/home/darsh/UR_GRIPPER/src/ur_system_tests', 'symlink_install': False, 'test_result_base': None}
+[0.509s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.510s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.510s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darsh/UR_GRIPPER/src/robotiq_description' with build type 'ament_cmake'
+[0.510s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darsh/UR_GRIPPER/src/robotiq_description'
+[0.516s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.517s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.517s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.521s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darsh/UR_GRIPPER/src/ur_description' with build type 'ament_cmake'
+[0.521s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darsh/UR_GRIPPER/src/ur_description'
+[0.522s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.522s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.526s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darsh/UR_GRIPPER/src/ur_gazebo' with build type 'ament_cmake'
+[0.526s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darsh/UR_GRIPPER/src/ur_gazebo'
+[0.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.530s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darsh/UR_GRIPPER/src/ur_interfaces' with build type 'ament_cmake'
+[0.530s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darsh/UR_GRIPPER/src/ur_interfaces'
+[0.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.531s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.534s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/darsh/UR_GRIPPER/src/ur_system_tests' with build type 'ament_cmake'
+[0.534s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/darsh/UR_GRIPPER/src/ur_system_tests'
+[0.534s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.534s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/UR_GRIPPER/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darsh/UR_GRIPPER/build/robotiq_description -- -j16 -l16
+[0.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/UR_GRIPPER/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darsh/UR_GRIPPER/build/ur_description -- -j16 -l16
+[0.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/UR_GRIPPER/build/ur_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darsh/UR_GRIPPER/build/ur_gazebo -- -j16 -l16
+[0.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/UR_GRIPPER/build/ur_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darsh/UR_GRIPPER/build/ur_interfaces -- -j16 -l16
+[0.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/UR_GRIPPER/build/ur_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darsh/UR_GRIPPER/build/ur_system_tests -- -j16 -l16
+[0.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/UR_GRIPPER/build/ur_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darsh/UR_GRIPPER/build/ur_interfaces -- -j16 -l16
+[0.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/UR_GRIPPER/build/ur_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darsh/UR_GRIPPER/build/ur_interfaces
+[0.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/UR_GRIPPER/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darsh/UR_GRIPPER/build/robotiq_description -- -j16 -l16
+[0.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/UR_GRIPPER/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darsh/UR_GRIPPER/build/robotiq_description
+[0.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/UR_GRIPPER/build/ur_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darsh/UR_GRIPPER/build/ur_gazebo -- -j16 -l16
+[0.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/UR_GRIPPER/build/ur_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darsh/UR_GRIPPER/build/ur_gazebo
+[0.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/UR_GRIPPER/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darsh/UR_GRIPPER/build/ur_description -- -j16 -l16
+[0.670s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_interfaces)
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_interfaces' for CMake module files
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_interfaces' for CMake config files
+[0.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_interfaces', 'cmake_prefix_path')
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/hook/cmake_prefix_path.ps1'
+[0.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/hook/cmake_prefix_path.dsv'
+[0.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/hook/cmake_prefix_path.sh'
+[0.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/UR_GRIPPER/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darsh/UR_GRIPPER/build/ur_description
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_interfaces/bin'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_interfaces/lib/pkgconfig/ur_interfaces.pc'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_interfaces/lib/python3.12/site-packages'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_interfaces/bin'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/package.ps1'
+[0.724s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/package.dsv'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/package.sh'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/package.bash'
+[0.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/package.zsh'
+[0.737s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darsh/UR_GRIPPER/install/ur_interfaces/share/colcon-core/packages/ur_interfaces)
+[0.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_interfaces)
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_interfaces' for CMake module files
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_interfaces' for CMake config files
+[0.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_interfaces', 'cmake_prefix_path')
+[0.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/hook/cmake_prefix_path.ps1'
+[0.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/hook/cmake_prefix_path.dsv'
+[0.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/hook/cmake_prefix_path.sh'
+[0.762s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_interfaces/bin'
+[0.762s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_interfaces/lib/pkgconfig/ur_interfaces.pc'
+[0.763s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_interfaces/lib/python3.12/site-packages'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_interfaces/bin'
+[0.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/package.ps1'
+[0.766s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/package.dsv'
+[0.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/package.sh'
+[0.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/package.bash'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/package.zsh'
+[0.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darsh/UR_GRIPPER/install/ur_interfaces/share/colcon-core/packages/ur_interfaces)
+[0.786s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_description)
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/robotiq_description' for CMake module files
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/robotiq_description' for CMake config files
+[0.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_description', 'cmake_prefix_path')
+[0.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.ps1'
+[0.804s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darsh/UR_GRIPPER/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.dsv'
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.sh'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/robotiq_description/bin'
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/robotiq_description/lib/pkgconfig/robotiq_description.pc'
+[0.812s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/robotiq_description/lib/python3.12/site-packages'
+[0.812s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/robotiq_description/bin'
+[0.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/robotiq_description/share/robotiq_description/package.ps1'
+[0.814s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darsh/UR_GRIPPER/install/robotiq_description/share/robotiq_description/package.dsv'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/robotiq_description/share/robotiq_description/package.sh'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/robotiq_description/share/robotiq_description/package.bash'
+[0.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/robotiq_description/share/robotiq_description/package.zsh'
+[0.825s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darsh/UR_GRIPPER/install/robotiq_description/share/colcon-core/packages/robotiq_description)
+[0.828s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotiq_description)
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/robotiq_description' for CMake module files
+[0.834s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/robotiq_description' for CMake config files
+[0.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotiq_description', 'cmake_prefix_path')
+[0.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.ps1'
+[0.855s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darsh/UR_GRIPPER/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.dsv'
+[0.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/robotiq_description/share/robotiq_description/hook/cmake_prefix_path.sh'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/robotiq_description/bin'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/robotiq_description/lib/pkgconfig/robotiq_description.pc'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/robotiq_description/lib/python3.12/site-packages'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/robotiq_description/bin'
+[0.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/robotiq_description/share/robotiq_description/package.ps1'
+[0.869s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darsh/UR_GRIPPER/install/robotiq_description/share/robotiq_description/package.dsv'
+[0.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/robotiq_description/share/robotiq_description/package.sh'
+[0.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/robotiq_description/share/robotiq_description/package.bash'
+[0.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/robotiq_description/share/robotiq_description/package.zsh'
+[0.877s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darsh/UR_GRIPPER/install/robotiq_description/share/colcon-core/packages/robotiq_description)
+[0.891s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_description' for CMake module files
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_description' for CMake config files
+[0.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/UR_GRIPPER/build/ur_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darsh/UR_GRIPPER/build/ur_interfaces
+[0.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[0.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[0.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_description/bin'
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_description/lib/pkgconfig/ur_description.pc'
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_description/lib/python3.12/site-packages'
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_description/bin'
+[0.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/package.ps1'
+[0.941s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/package.dsv'
+[0.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/package.sh'
+[0.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/package.bash'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/package.zsh'
+[0.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darsh/UR_GRIPPER/install/ur_description/share/colcon-core/packages/ur_description)
+[0.955s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_description)
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_description' for CMake module files
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_description' for CMake config files
+[0.980s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_description', 'cmake_prefix_path')
+[0.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/hook/cmake_prefix_path.ps1'
+[0.981s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/hook/cmake_prefix_path.dsv'
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/hook/cmake_prefix_path.sh'
+[0.985s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_description/bin'
+[0.985s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_description/lib/pkgconfig/ur_description.pc'
+[0.985s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_description/lib/python3.12/site-packages'
+[0.985s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_description/bin'
+[0.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/package.ps1'
+[0.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/package.dsv'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/package.sh'
+[0.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/package.bash'
+[0.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/package.zsh'
+[0.991s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darsh/UR_GRIPPER/install/ur_description/share/colcon-core/packages/ur_description)
+[0.992s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_gazebo)
+[0.993s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_gazebo' for CMake module files
+[0.994s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_gazebo' for CMake config files
+[0.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_gazebo', 'cmake_prefix_path')
+[0.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/hook/cmake_prefix_path.ps1'
+[0.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/hook/cmake_prefix_path.dsv'
+[0.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/hook/cmake_prefix_path.sh'
+[1.001s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_gazebo/bin'
+[1.001s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_gazebo/lib/pkgconfig/ur_gazebo.pc'
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_gazebo/lib/python3.12/site-packages'
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_gazebo/bin'
+[1.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/package.ps1'
+[1.003s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/package.dsv'
+[1.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/package.sh'
+[1.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/package.bash'
+[1.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/package.zsh'
+[1.007s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darsh/UR_GRIPPER/install/ur_gazebo/share/colcon-core/packages/ur_gazebo)
+[1.009s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_gazebo)
+[1.009s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_gazebo' for CMake module files
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_gazebo' for CMake config files
+[1.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_gazebo', 'cmake_prefix_path')
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/hook/cmake_prefix_path.ps1'
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/hook/cmake_prefix_path.dsv'
+[1.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/hook/cmake_prefix_path.sh'
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_gazebo/bin'
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_gazebo/lib/pkgconfig/ur_gazebo.pc'
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_gazebo/lib/python3.12/site-packages'
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_gazebo/bin'
+[1.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/package.ps1'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/package.dsv'
+[1.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/package.sh'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/package.bash'
+[1.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/package.zsh'
+[1.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darsh/UR_GRIPPER/install/ur_gazebo/share/colcon-core/packages/ur_gazebo)
+[1.034s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_system_tests)
+[1.034s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_system_tests' for CMake module files
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_system_tests' for CMake config files
+[1.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/UR_GRIPPER/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darsh/UR_GRIPPER/build/robotiq_description
+[1.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_system_tests', 'cmake_prefix_path')
+[1.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/hook/cmake_prefix_path.ps1'
+[1.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/UR_GRIPPER/build/ur_system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darsh/UR_GRIPPER/build/ur_system_tests -- -j16 -l16
+[1.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/darsh/UR_GRIPPER/build/ur_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darsh/UR_GRIPPER/build/ur_system_tests
+[1.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/hook/cmake_prefix_path.dsv'
+[1.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/UR_GRIPPER/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darsh/UR_GRIPPER/build/ur_description
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/hook/cmake_prefix_path.sh'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_system_tests/lib'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_system_tests/bin'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_system_tests/lib/pkgconfig/ur_system_tests.pc'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_system_tests/lib/python3.12/site-packages'
+[1.048s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_system_tests/bin'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/package.ps1'
+[1.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/UR_GRIPPER/build/ur_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darsh/UR_GRIPPER/build/ur_gazebo
+[1.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/package.dsv'
+[1.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/darsh/UR_GRIPPER/build/ur_system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darsh/UR_GRIPPER/build/ur_system_tests
+[1.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/package.sh'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/package.bash'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/package.zsh'
+[1.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darsh/UR_GRIPPER/install/ur_system_tests/share/colcon-core/packages/ur_system_tests)
+[1.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_system_tests)
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_system_tests' for CMake module files
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_system_tests' for CMake config files
+[1.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_system_tests', 'cmake_prefix_path')
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/hook/cmake_prefix_path.ps1'
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/hook/cmake_prefix_path.dsv'
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/hook/cmake_prefix_path.sh'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_system_tests/lib'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_system_tests/bin'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_system_tests/lib/pkgconfig/ur_system_tests.pc'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_system_tests/lib/python3.12/site-packages'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/darsh/UR_GRIPPER/install/ur_system_tests/bin'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/package.ps1'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/package.dsv'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/package.sh'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/package.bash'
+[1.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/package.zsh'
+[1.060s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/darsh/UR_GRIPPER/install/ur_system_tests/share/colcon-core/packages/ur_system_tests)
+[1.060s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.061s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.061s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.061s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.105s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.105s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.105s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.105s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.106s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[1.107s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.107s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darsh/UR_GRIPPER/install/local_setup.ps1'
+[1.108s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/darsh/UR_GRIPPER/install/_local_setup_util_ps1.py'
+[1.110s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darsh/UR_GRIPPER/install/setup.ps1'
+[1.111s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darsh/UR_GRIPPER/install/local_setup.sh'
+[1.112s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/darsh/UR_GRIPPER/install/_local_setup_util_sh.py'
+[1.112s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darsh/UR_GRIPPER/install/setup.sh'
+[1.114s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darsh/UR_GRIPPER/install/local_setup.bash'
+[1.114s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darsh/UR_GRIPPER/install/setup.bash'
+[1.115s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/darsh/UR_GRIPPER/install/local_setup.zsh'
+[1.116s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/darsh/UR_GRIPPER/install/setup.zsh'

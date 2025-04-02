@@ -1,0 +1,248 @@
+[0.031s] Invoking command in '/home/darsh/UR_GRIPPER/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/darsh/UR_GRIPPER/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/darsh/UR_GRIPPER/install/ur_description
+[0.343s] -- The C compiler identification is GNU 13.3.0
+[0.860s] -- The CXX compiler identification is GNU 13.3.0
+[1.149s] -- Detecting C compiler ABI info
+[1.339s] -- Detecting C compiler ABI info - done
+[1.353s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.354s] -- Detecting C compile features
+[1.355s] -- Detecting C compile features - done
+[1.418s] -- Detecting CXX compiler ABI info
+[1.627s] -- Detecting CXX compiler ABI info - done
+[1.641s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.641s] -- Detecting CXX compile features
+[1.642s] -- Detecting CXX compile features - done
+[1.689s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.936s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.139s] -- Found ament_cmake_pytest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[2.254s] -- Configuring done (2.1s)
+[2.258s] -- Generating done (0.0s)
+[2.261s] -- Build files have been written to: /home/darsh/UR_GRIPPER/build/ur_description
+[2.269s] Invoked command in '/home/darsh/UR_GRIPPER/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/darsh/UR_GRIPPER/src/ur_description -DCMAKE_INSTALL_PREFIX=/home/darsh/UR_GRIPPER/install/ur_description
+[2.271s] Invoking command in '/home/darsh/UR_GRIPPER/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darsh/UR_GRIPPER/build/ur_description -- -j16 -l16
+[2.314s] Invoked command in '/home/darsh/UR_GRIPPER/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darsh/UR_GRIPPER/build/ur_description -- -j16 -l16
+[2.326s] Invoking command in '/home/darsh/UR_GRIPPER/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darsh/UR_GRIPPER/build/ur_description
+[2.335s] -- Install configuration: ""
+[2.335s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config
+[2.336s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/initial_positions.yaml
+[2.337s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur5
+[2.337s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[2.337s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[2.338s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[2.339s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[2.339s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur10e
+[2.340s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[2.344s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[2.346s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[2.346s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[2.347s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur5e
+[2.347s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[2.348s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[2.349s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[2.350s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[2.352s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur3
+[2.352s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[2.352s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[2.352s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[2.353s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[2.353s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur3e
+[2.353s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[2.354s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[2.354s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[2.354s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[2.355s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur30
+[2.355s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml
+[2.355s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml
+[2.356s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml
+[2.356s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml
+[2.356s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur20
+[2.356s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[2.356s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[2.357s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[2.357s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[2.357s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur10
+[2.358s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[2.358s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[2.358s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[2.359s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[2.359s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur16e
+[2.360s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[2.360s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[2.360s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[2.361s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[2.361s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/launch
+[2.361s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/launch/plan_motion.py
+[2.361s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[2.361s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes
+[2.362s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5
+[2.362s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5/collision
+[2.362s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[2.362s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[2.362s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[2.362s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[2.363s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[2.363s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[2.363s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[2.364s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5/visual
+[2.365s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[2.366s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[2.371s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[2.379s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[2.384s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[2.386s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[2.390s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[2.394s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10e
+[2.394s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10e/collision
+[2.395s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[2.396s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[2.397s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[2.397s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[2.398s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[2.400s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[2.401s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[2.401s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10e/visual
+[2.402s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[2.402s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[2.411s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[2.419s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[2.424s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[2.426s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[2.430s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[2.438s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5e
+[2.438s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5e/collision
+[2.439s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[2.439s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[2.442s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[2.442s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[2.443s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[2.445s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[2.446s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[2.446s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5e/visual
+[2.446s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[2.446s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[2.449s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[2.457s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[2.463s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[2.464s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[2.470s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[2.476s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3
+[2.476s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3/collision
+[2.477s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[2.479s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[2.482s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[2.485s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[2.487s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[2.488s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[2.490s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[2.491s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3/visual
+[2.492s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[2.493s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[2.499s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[2.509s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[2.513s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[2.516s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[2.520s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[2.524s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3e
+[2.524s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3e/collision
+[2.524s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[2.525s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[2.526s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[2.527s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[2.528s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[2.529s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[2.530s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[2.531s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3e/visual
+[2.531s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[2.532s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[2.538s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[2.553s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[2.559s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[2.561s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[2.566s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[2.574s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/d435
+[2.574s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/d435/visual
+[2.574s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/d435/visual/d435.stl
+[2.616s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur30
+[2.616s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt
+[2.617s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur30/collision
+[2.617s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl
+[2.619s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl
+[2.621s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur30/visual
+[2.621s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae
+[2.625s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae
+[2.629s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png
+[2.635s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20
+[2.635s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[2.636s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20/collision
+[2.636s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[2.637s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[2.638s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[2.639s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[2.640s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[2.640s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[2.642s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[2.642s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20/visual
+[2.642s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[2.645s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[2.646s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[2.650s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[2.654s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[2.659s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[2.662s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[2.665s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[2.666s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10
+[2.667s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10/collision
+[2.667s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[2.668s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[2.669s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[2.670s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[2.671s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[2.672s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[2.673s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[2.674s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10/visual
+[2.674s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[2.675s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[2.679s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[2.687s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[2.694s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[2.696s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[2.702s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[2.712s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur16e
+[2.712s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur16e/collision
+[2.712s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[2.713s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[2.714s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur16e/visual
+[2.715s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[2.725s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[2.730s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/rviz
+[2.731s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[2.731s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/urdf
+[2.731s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/urdf/ur_mocked.urdf.xacro
+[2.732s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/urdf/ur.urdf copy.xacro
+[2.732s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/urdf/ur.urdf
+[2.733s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/urdf/inc
+[2.733s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[2.734s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/urdf/inc/ur_sensors.xacro
+[2.734s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/urdf/inc/ur_joint_control.xacro
+[2.735s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[2.735s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[2.736s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/urdf/ros2_control_mock_hardware.xacro
+[2.736s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/urdf/gazebo_sim_ros2_control.urdf.xacro
+[2.736s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/urdf/intel_rgbd_cam_d435.urdf.xacro
+[2.736s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[2.737s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[2.738s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[2.738s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[2.738s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[2.739s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[2.739s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/environment/path.sh
+[2.739s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/environment/path.dsv
+[2.740s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/local_setup.bash
+[2.740s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/local_setup.sh
+[2.740s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/local_setup.zsh
+[2.740s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/local_setup.dsv
+[2.740s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/package.dsv
+[2.740s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[2.740s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[2.740s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[2.741s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_description/share/ur_description/package.xml
+[2.742s] Invoked command in '/home/darsh/UR_GRIPPER/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darsh/UR_GRIPPER/build/ur_description
