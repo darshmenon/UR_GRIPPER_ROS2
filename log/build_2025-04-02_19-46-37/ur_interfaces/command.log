@@ -1,4 +1,0 @@
-Invoking command in '/home/darsh/UR_GRIPPER/build/ur_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darsh/UR_GRIPPER/build/ur_interfaces -- -j16 -l16
-Invoked command in '/home/darsh/UR_GRIPPER/build/ur_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darsh/UR_GRIPPER/build/ur_interfaces -- -j16 -l16
-Invoking command in '/home/darsh/UR_GRIPPER/build/ur_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darsh/UR_GRIPPER/build/ur_interfaces
-Invoked command in '/home/darsh/UR_GRIPPER/build/ur_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darsh/UR_GRIPPER/build/ur_interfaces

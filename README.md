@@ -13,6 +13,9 @@ Also, install required ROS2 packages if not installed:
 sudo apt update && sudo apt install ros-jazzy-xacro ros-jazzy-joint-state-publisher-gui ros-jazzy-robot-state-publisher ros-jazzy-rviz2
 ```
 
+## Screenshots
+
+![rviz](/images/image.png)
 
 ## Convert Xacro to URDF
 Before launching, convert the `.xacro` file into `.urdf`:

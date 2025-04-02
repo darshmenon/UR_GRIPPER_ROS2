@@ -1,9 +1,0 @@
-/home/darsh/UR_GRIPPER/build/ur_interfaces/CMakeFiles/uninstall.dir
-/home/darsh/UR_GRIPPER/build/ur_interfaces/CMakeFiles/ur_interfaces_uninstall.dir
-/home/darsh/UR_GRIPPER/build/ur_interfaces/CMakeFiles/test.dir
-/home/darsh/UR_GRIPPER/build/ur_interfaces/CMakeFiles/edit_cache.dir
-/home/darsh/UR_GRIPPER/build/ur_interfaces/CMakeFiles/rebuild_cache.dir
-/home/darsh/UR_GRIPPER/build/ur_interfaces/CMakeFiles/list_install_components.dir
-/home/darsh/UR_GRIPPER/build/ur_interfaces/CMakeFiles/install.dir
-/home/darsh/UR_GRIPPER/build/ur_interfaces/CMakeFiles/install/local.dir
-/home/darsh/UR_GRIPPER/build/ur_interfaces/CMakeFiles/install/strip.dir
