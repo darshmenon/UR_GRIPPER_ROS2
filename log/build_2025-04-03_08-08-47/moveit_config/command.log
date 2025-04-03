@@ -1,0 +1,2 @@
+Invoking command in '/home/darsh/UR_GRIPPER/build/moveit_config': /usr/bin/cmake /home/darsh/UR_GRIPPER/src/moveit_config -DCMAKE_INSTALL_PREFIX=/home/darsh/UR_GRIPPER/install/moveit_config
+Invoked command in '/home/darsh/UR_GRIPPER/build/moveit_config' returned '1': /usr/bin/cmake /home/darsh/UR_GRIPPER/src/moveit_config -DCMAKE_INSTALL_PREFIX=/home/darsh/UR_GRIPPER/install/moveit_config

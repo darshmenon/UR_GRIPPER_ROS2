@@ -1,0 +1,42 @@
+[0.035s] Invoking command in '/home/darsh/UR_GRIPPER/build/ur_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/darsh/UR_GRIPPER/src/ur_interfaces -DCMAKE_INSTALL_PREFIX=/home/darsh/UR_GRIPPER/install/ur_interfaces
+[0.419s] -- The C compiler identification is GNU 13.3.0
+[1.028s] -- The CXX compiler identification is GNU 13.3.0
+[1.664s] -- Detecting C compiler ABI info
+[1.914s] -- Detecting C compiler ABI info - done
+[1.927s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.927s] -- Detecting C compile features
+[1.928s] -- Detecting C compile features - done
+[2.013s] -- Detecting CXX compiler ABI info
+[2.315s] -- Detecting CXX compiler ABI info - done
+[2.329s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.329s] -- Detecting CXX compile features
+[2.330s] -- Detecting CXX compile features - done
+[2.335s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.565s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.729s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.914s] -- Added test 'lint_cmake' to check CMake code style
+[2.918s] -- Added test 'xmllint' to check XML markup files
+[2.921s] -- Configuring done (2.9s)
+[2.927s] -- Generating done (0.0s)
+[2.930s] -- Build files have been written to: /home/darsh/UR_GRIPPER/build/ur_interfaces
+[2.950s] Invoked command in '/home/darsh/UR_GRIPPER/build/ur_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/darsh/UR_GRIPPER/src/ur_interfaces -DCMAKE_INSTALL_PREFIX=/home/darsh/UR_GRIPPER/install/ur_interfaces
+[2.953s] Invoking command in '/home/darsh/UR_GRIPPER/build/ur_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darsh/UR_GRIPPER/build/ur_interfaces -- -j16 -l16
+[3.006s] Invoked command in '/home/darsh/UR_GRIPPER/build/ur_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darsh/UR_GRIPPER/build/ur_interfaces -- -j16 -l16
+[3.008s] Invoking command in '/home/darsh/UR_GRIPPER/build/ur_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darsh/UR_GRIPPER/build/ur_interfaces
+[3.015s] -- Install configuration: ""
+[3.016s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_interfaces/share/ament_index/resource_index/package_run_dependencies/ur_interfaces
+[3.017s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_interfaces/share/ament_index/resource_index/parent_prefix_path/ur_interfaces
+[3.018s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/environment/ament_prefix_path.sh
+[3.018s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/environment/ament_prefix_path.dsv
+[3.018s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/environment/path.sh
+[3.018s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/environment/path.dsv
+[3.019s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/local_setup.bash
+[3.019s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/local_setup.sh
+[3.019s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/local_setup.zsh
+[3.020s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/local_setup.dsv
+[3.020s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/package.dsv
+[3.020s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_interfaces/share/ament_index/resource_index/packages/ur_interfaces
+[3.020s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/cmake/ur_interfacesConfig.cmake
+[3.021s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/cmake/ur_interfacesConfig-version.cmake
+[3.021s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_interfaces/share/ur_interfaces/package.xml
+[3.024s] Invoked command in '/home/darsh/UR_GRIPPER/build/ur_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darsh/UR_GRIPPER/build/ur_interfaces

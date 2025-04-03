@@ -1,0 +1,46 @@
+[0.045s] Invoking command in '/home/darsh/UR_GRIPPER/build/moveit_config': /usr/bin/cmake /home/darsh/UR_GRIPPER/src/moveit_config -DCMAKE_INSTALL_PREFIX=/home/darsh/UR_GRIPPER/install/moveit_config
+[0.445s] -- The C compiler identification is GNU 13.3.0
+[1.021s] -- The CXX compiler identification is GNU 13.3.0
+[1.528s] -- Detecting C compiler ABI info
+[1.790s] -- Detecting C compiler ABI info - done
+[1.803s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.804s] -- Detecting C compile features
+[1.805s] -- Detecting C compile features - done
+[1.879s] -- Detecting CXX compiler ABI info
+[2.117s] -- Detecting CXX compiler ABI info - done
+[2.131s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.131s] -- Detecting CXX compile features
+[2.132s] -- Detecting CXX compile features - done
+[2.186s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.410s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.761s] Error parsing '/home/darsh/UR_GRIPPER/src/moveit_config/package.xml':
+[5.458s] Traceback (most recent call last):
+[5.458s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[5.458s]     main()
+[5.459s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[5.459s]     raise e
+[5.459s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[5.459s]     package = parse_package_string(
+[5.459s]               ^^^^^^^^^^^^^^^^^^^^^
+[5.459s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[5.459s]     pkg.validate(warnings=warnings)
+[5.460s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[5.460s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[5.460s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/darsh/UR_GRIPPER/src/moveit_config/package.xml':
+[5.460s] Invalid email "" for person ""
+[5.460s] Maintainers must have an email address
+[5.460s] Invalid email "" for person ""
+[5.498s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[5.498s]   execute_process(/usr/bin/python3
+[5.499s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[5.499s]   /home/darsh/UR_GRIPPER/src/moveit_config/package.xml
+[5.499s]   /home/darsh/UR_GRIPPER/build/moveit_config/ament_cmake_core/package.cmake)
+[5.499s]   returned error code 1
+[5.499s] Call Stack (most recent call first):
+[5.499s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[5.499s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[5.499s]   CMakeLists.txt:6 (ament_package)
+[5.500s] 
+[5.500s] [0m
+[5.500s] -- Configuring incomplete, errors occurred!
+[5.504s] Invoked command in '/home/darsh/UR_GRIPPER/build/moveit_config' returned '1': /usr/bin/cmake /home/darsh/UR_GRIPPER/src/moveit_config -DCMAKE_INSTALL_PREFIX=/home/darsh/UR_GRIPPER/install/moveit_config

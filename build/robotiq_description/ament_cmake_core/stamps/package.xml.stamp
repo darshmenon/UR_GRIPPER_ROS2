@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>robotiq_description</name>
+  <version>0.0.0</version>
+  <description>The robotiq_description package</description>
+  <maintainer email="ros@todo.todo">ros</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build system -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Dependencies for URDF and robot state publisher -->
+  <depend>urdf</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>xacro</depend>
+
+  <!-- Export -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
