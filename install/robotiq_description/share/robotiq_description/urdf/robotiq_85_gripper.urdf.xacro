@@ -114,13 +114,17 @@
                     <mesh filename="package://robotiq_description/meshes/collision/robotiq_85_finger_link.stl"/>
                 </geometry>
             </collision>
-            <inertial>
-                <mass value="0.027309" />
-                <origin xyz="0.0 0.0 0.0" />
-                <inertia ixx = "0.000003" ixy = "-0.000002" ixz = "0.000000"
-                         iyx = "-0.000002" iyy = "0.000021" iyz = "0.000000"
-                         izx = "0.000000" izy = "0.000000" izz = "0.000020" />
-            </inertial>
+         <inertial>
+        <mass value="0.027309" />
+        <origin xyz="0.0 0.0 0.0" />
+        <inertia 
+            ixx="0.0001" 
+            ixy="0.0" 
+            ixz="0.0"
+            iyy="0.0001" 
+            iyz="0.0"
+            izz="0.0001" />
+    </inertial>
         </link> 
 
         <link name="${prefix}robotiq_85_right_finger_link">
@@ -172,34 +176,42 @@
                     <mesh filename="package://robotiq_description/meshes/collision/robotiq_85_inner_knuckle_link.stl"/>
                 </geometry>
             </collision>
-            <inertial>
-                <mass value="0.029951" />
-                <origin xyz="0.0 0.0 0.0" />
-                <inertia ixx = "0.000039" ixy = "0.000000" ixz = "0.000000"
-                         iyx = "0.000000" iyy = "0.000005" iyz = "0.000000"
-                         izx = "0.000000" izy = "0.000000" izz = "0.000035" />
-            </inertial>
+     <inertial>
+        <mass value="0.029951" />
+        <origin xyz="0.0 0.0 0.0" />
+        <inertia 
+            ixx="0.0001" 
+            ixy="0.0" 
+            ixz="0.0"
+            iyy="0.0001" 
+            iyz="0.0"
+            izz="0.0001" />
+    </inertial>
         </link>
-        <link name="${prefix}robotiq_85_right_inner_knuckle_link">
-            <visual>
-                <geometry>
-                    <mesh filename="package://robotiq_description/meshes/visual/robotiq_85_inner_knuckle_link.dae"/>
-                </geometry>
-            </visual>
-            <collision>
-                <geometry>
-                    <mesh filename="package://robotiq_description/meshes/collision/robotiq_85_inner_knuckle_link.stl"/>
-                </geometry>
-            </collision>
-            <inertial>
-                <mass value="0.029951" />
-                <origin xyz="0.0 0.0 0.0" />
-                <inertia ixx = "0.000039" ixy = "0.000000" ixz = "0.000000"
-                         iyx = "0.000000" iyy = "0.000005" iyz = "0.000000"
-                         izx = "0.000000" izy = "0.000000" izz = "0.000035" />
-            </inertial>
-        </link>
+<link name="${prefix}robotiq_85_right_inner_knuckle_link">
+    <visual>
+        <geometry>
+            <mesh filename="package://robotiq_description/meshes/visual/robotiq_85_inner_knuckle_link.dae"/>
+        </geometry>
+    </visual>
+    <collision>
+        <geometry>
+            <mesh filename="package://robotiq_description/meshes/collision/robotiq_85_inner_knuckle_link.stl"/>
+        </geometry>
+    </collision>
+        <inertial>
+        <mass value="0.027309" />
+        <origin xyz="0.0 0.0 0.0" />
+        <inertia 
+            ixx="0.0001" 
+            ixy="0.0" 
+            ixz="0.0"
+            iyy="0.0001" 
+            iyz="0.0"
+            izz="0.0001" />
+    </inertial>
 
+</link>
         <joint name="${prefix}robotiq_85_left_finger_tip_joint" type="continuous">
             <parent link="${prefix}robotiq_85_left_inner_knuckle_link"/>
             <child link="${prefix}robotiq_85_left_finger_tip_link"/>
@@ -230,13 +242,19 @@
                     <mesh filename="package://robotiq_description/meshes/collision/robotiq_85_finger_tip_link.stl"/>
                 </geometry>
             </collision>
-            <inertial>
-                <mass value="0.019555" />
-                <origin xyz="0.0 0.0 0.0" />
-                <inertia ixx = "0.000002" ixy = "0.000000" ixz = "0.000000"
-                         iyx = "0.000000" iyy = "0.000005" iyz = "0.000000"
-                         izx = "0.000000" izy = "0.000000" izz = "0.000006" />
-            </inertial>
+        <inertial>
+        <mass value="0.027309" />
+        <origin xyz="0.0 0.0 0.0" />
+        <inertia 
+            ixx="0.0001" 
+            ixy="0.0" 
+            ixz="0.0"
+            iyy="0.0001" 
+            iyz="0.0"
+            izz="0.0001" />
+    </inertial>
+
+
         </link> 
 
         <link name="${prefix}robotiq_85_right_finger_tip_link">

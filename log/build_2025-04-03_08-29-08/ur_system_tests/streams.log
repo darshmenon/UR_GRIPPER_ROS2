@@ -1,0 +1,27 @@
+[0.040s] Invoking command in '/home/darsh/UR_GRIPPER/build/ur_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darsh/UR_GRIPPER/build/ur_system_tests -- -j16 -l16
+[0.288s] [100%] Built target arm_gripper_loop_controller
+[0.629s] Invoked command in '/home/darsh/UR_GRIPPER/build/ur_system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/darsh/UR_GRIPPER/build/ur_system_tests -- -j16 -l16
+[0.629s] Invoking command in '/home/darsh/UR_GRIPPER/build/ur_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darsh/UR_GRIPPER/build/ur_system_tests
+[0.635s] -- Install configuration: ""
+[0.636s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/scripts
+[0.636s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/scripts/arm_gripper_loop_controller.py
+[0.638s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/src
+[0.640s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/src/arm_gripper_loop_controller.cpp
+[0.640s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/lib/ur_system_tests/arm_gripper_loop_controller
+[0.641s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/lib/ur_system_tests/arm_gripper_loop_controller.py
+[0.642s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ament_index/resource_index/package_run_dependencies/ur_system_tests
+[0.643s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ament_index/resource_index/parent_prefix_path/ur_system_tests
+[0.643s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/environment/ament_prefix_path.sh
+[0.643s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/environment/ament_prefix_path.dsv
+[0.644s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/environment/path.sh
+[0.645s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/environment/path.dsv
+[0.645s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/local_setup.bash
+[0.646s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/local_setup.sh
+[0.647s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/local_setup.zsh
+[0.647s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/local_setup.dsv
+[0.648s] -- Installing: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/package.dsv
+[0.648s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ament_index/resource_index/packages/ur_system_tests
+[0.649s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/cmake/ur_system_testsConfig.cmake
+[0.649s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/cmake/ur_system_testsConfig-version.cmake
+[0.650s] -- Up-to-date: /home/darsh/UR_GRIPPER/install/ur_system_tests/share/ur_system_tests/package.xml
+[0.650s] Invoked command in '/home/darsh/UR_GRIPPER/build/ur_system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/darsh/UR_GRIPPER/build/ur_system_tests

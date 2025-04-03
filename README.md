@@ -1,4 +1,4 @@
-# UR Gripper with UR Robot Arm - ROS2 Setup
+# UR Gripper with UR Robot Arm - ROS2 Setup 
 
 ## Overview
 This project integrates a **UR robotic arm** with the **Robotiq 2F-85 Gripper** using **ROS2 (Jazzy)**. It includes **URDF/Xacro** files to define the robot structure and allows visualization in **RViz**.
@@ -36,13 +36,11 @@ To visualize the URDF in **RViz**, use:
 ros2 launch urdf_tutorial display.launch.py model:=/home/darsh/UR_GRIPPER/src/ur_description/urdf/ur.urdf
 ```
 
+## Launch Gazebo and Motion Planning
+To start the **Gazebo** simulation with **motion planning**, run:
+```bash
+ros2 launch ur_gazebo ur.gazebo.launch.py
+```
 
-## Future Enhancements
-- Integrate with **MoveIt!** for motion planning.
-- Add **Gazebo** simulation support.
-- Implement real hardware control for the **UR robot arm + Robotiq Gripper**.
-
----
 
 Now you are ready to **simulate your UR robot with the Robotiq gripper! 🚀**
-

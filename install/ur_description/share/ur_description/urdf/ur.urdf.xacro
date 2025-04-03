@@ -38,7 +38,10 @@
      force_abs_paths="$(arg force_abs_paths)">
      <origin xyz="0 0 0" rpy="0 0 0" /> <!-- Position robot in the world -->
    </xacro:ur_robot>
+    <xacro:include filename="$(find moveit_config)/config/ur.ros2_control.xacro" />
 
+
+    <xacro:ur_ros2_control name="FakeSystem" initial_positions_file="$(find moveit_config)/config/initial_positions.yaml"/>
    <!-- Include Gazebo Simulation Control Plugin -->
    <!-- <xacro:include filename="$(find ur_description)/urdf/gazebo_sim_ros2_control.urdf.xacro" />
    <xacro:load_gazebo_sim_ros2_control_plugin

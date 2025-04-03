@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "moveit_config")
 set(moveit_config_VERSION "0.3.0")
-set(moveit_config_MAINTAINER "Your Name <your_email@example.com>")
+set(moveit_config_MAINTAINER "darsh <darshmenon02@gmail.com>")
 set(moveit_config_BUILD_DEPENDS )
 set(moveit_config_BUILDTOOL_DEPENDS "ament_cmake")
 set(moveit_config_BUILD_EXPORT_DEPENDS )

@@ -1,0 +1,614 @@
+[INFO] [launch]: All log files can be found below /home/darsh/.ros/log/2025-04-03-18-54-46-401622-LAPTOP-9C42ONBH-48087
+[INFO] [launch]: Default logging verbosity is set to INFO
+WARNING:root:[33;21m"File /home/darsh/UR_GRIPPER/install/moveit_config/share/moveit_config/config/ur.urdf doesn't exist"[0m
+WARNING:root:[33;21mThe robot description will be loaded from /robot_description topic [0m
+[INFO] [static_transform_publisher-1]: process started with pid [48160]
+[INFO] [robot_state_publisher-2]: process started with pid [48161]
+[INFO] [gazebo-3]: process started with pid [48162]
+[INFO] [parameter_bridge-4]: process started with pid [48163]
+[INFO] [create-5]: process started with pid [48165]
+[INFO] [ros2_control_node-6]: process started with pid [48166]
+[INFO] [rviz2-7]: process started with pid [48168]
+[INFO] [move_group-8]: process started with pid [48169]
+[static_transform_publisher-1] [WARN] [1743706491.918553127] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-1] [INFO] [1743706492.050070349] [static_transform_publisher_ujZw1gTNoNgVIaBq]: Spinning until stopped - publishing transform
+[static_transform_publisher-1] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-1] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-1] from 'world' to 'base_link'
+[robot_state_publisher-2] [INFO] [1743706492.059612031] [robot_state_publisher]: Robot initialized
+[create-5] [INFO] [1743706492.158416744] [ros_gz_sim]: Requesting list of world names.
+[ros2_control_node-6] [INFO] [1743706492.192430736] [controller_manager]: Subscribing to '/robot_description' topic for robot description.
+[move_group-8] [INFO] [1743706492.671514909] [move_group.moveit.moveit.ros.rdf_loader]: Loaded robot model in 0 seconds
+[move_group-8] [INFO] [1743706492.672339341] [move_group.moveit.moveit.core.robot_model]: Loading robot model 'ur'...
+[move_group-8] [INFO] [1743706492.672450148] [move_group.moveit.moveit.core.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[move_group-8] [ERROR] [1743706493.108553346] [move_group.moveit.moveit.kinematics.kdl_kinematics_plugin]: Group 'arm' is not a chain
+[move_group-8] [ERROR] [1743706493.109030030] [move_group.moveit.moveit.ros.kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'arm'
+[move_group-8] [ERROR] [1743706493.109225086] [move_group.moveit.moveit.ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group arm.
+[parameter_bridge-4] [INFO] [1743706493.249204388] [ros_gz_bridge]: Creating GZ->ROS Bridge: [camera_head/camera_info (gz.msgs.CameraInfo) -> camera_head/depth/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 1)
+[parameter_bridge-4] [INFO] [1743706493.270434605] [ros_gz_bridge]: Creating GZ->ROS Bridge: [camera_head/points (gz.msgs.PointCloudPacked) -> camera_head/depth/color/points (sensor_msgs/msg/PointCloud2)] (Lazy 1)
+[gazebo-3] [1;36m[Dbg] [gz.cc:166] [0m[1;36mSubscribing to [[0m[1;36m/gazebo/starting_world[0m[1;36m].[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [gz.cc:168] [0m[1;36mWaiting for a world to be set from the GUI...[0m[1;36m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mReceived world [[0m[1;32m/home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/worlds/pick_and_place_demo.world[0m[1;32m] from the GUI.[0m[1;32m[0m
+[gazebo-3] [1;36m[Dbg] [gz.cc:172] [0m[1;36mUnsubscribing from [[0m[1;36m/gazebo/starting_world[0m[1;36m].[0m[1;36m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mGazebo Sim Server v[0m[1;32m8.9.0[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mLoading SDF world file[[0m[1;32m/home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/worlds/pick_and_place_demo.world[0m[1;32m].[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServing entity system service on [[0m[1;32m/[0m[1;32mentity/system/add[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[Dbg] [Physics.cc:883] [0m[1;36mLoaded [[0m[1;36mgz::physics::dartsim::Plugin[0m[1;36m] from library [[0m[1;36m/opt/ros/jazzy/opt/gz_physics_vendor/lib/gz-physics-7/engine-plugins/libgz-physics-dartsim-plugin.so[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Physics[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mCreate service on [[0m[1;32m/world/default/create[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mRemove service on [[0m[1;32m/world/default/remove[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mPose service on [[0m[1;32m/world/default/set_pose[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mPose service on [[0m[1;32m/world/default/set_pose_vector[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mLight configuration service on [[0m[1;32m/world/default/light_config[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mPhysics service on [[0m[1;32m/world/default/set_physics[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mSphericalCoordinates service on [[0m[1;32m/world/default/set_spherical_coordinates[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mEnable collision service on [[0m[1;32m/world/default/enable_collision[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mDisable collision service on [[0m[1;32m/world/default/disable_collision[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mMaterial service on [[0m[1;32m/world/default/visual_config[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mMaterial service on [[0m[1;32m/world/default/wheel_slip[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::UserCommands[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::SceneBroadcaster[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [Sensors.cc:697] [0m[1;36mConfiguring Sensors system[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [Sensors.cc:557] [0m[1;36mSensorsPrivate::Run[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SystemManager.cc:80] [0m[1;36mLoaded system [[0m[1;36mgz::sim::systems::Sensors[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m
+[gazebo-3] [Dbg] [Sensors.cc:532] [0m[1;36mSensorsPrivate::RenderThread started[0m[1;36m[0m
+[gazebo-3] [1;36m[0m
+[gazebo-3] [1;36m[Dbg] [Sensors.cc:337] [0m[1;36mWaiting for init[0m[1;36m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mLoaded level [[0m[1;32mdefault[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServing world controls on [[0m[1;32m/world/default[0m[1;32m/control], [[0m[1;32m/world/default[0m[1;32m/control/state] and [[0m[1;32m/world/default[0m[1;32m/playback/control][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServing GUI information on [[0m[1;32m/world/default[0m[1;32m/[0m[1;32mgui/info[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mWorld [[0m[1;32mdefault[0m[1;32m] initialized with [[0m[1;32mdefault_physics[0m[1;32m] physics profile.[0m[1;32m[0m
+[create-5] [INFO] [1743706494.514434438] [ros_gz_sim]: Waiting messages on topic [/robot_description].
+[create-5] [INFO] [1743706494.533922976] [ros_gz_sim]: Entity creation successful.
+[INFO] [create-5]: process has finished cleanly [pid 48165]
+[move_group-8] [INFO] [1743706494.753234776] [move_group.moveit.moveit.ros.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-8] [INFO] [1743706494.754017686] [move_group.moveit.moveit.ros.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-8] [INFO] [1743706494.759325806] [move_group.moveit.moveit.ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-8] [INFO] [1743706494.763594870] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-8] [INFO] [1743706494.763778494] [move_group.moveit.moveit.ros.planning_scene_monitor]: Stopping existing planning scene publisher.
+[move_group-8] [INFO] [1743706494.764713973] [move_group.moveit.moveit.ros.planning_scene_monitor]: Stopped publishing maintained planning scene.
+[move_group-8] [INFO] [1743706494.768512501] [move_group.moveit.moveit.ros.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-8] [INFO] [1743706494.769157789] [move_group.moveit.moveit.ros.planning_scene_monitor]: Starting planning scene monitor
+[move_group-8] [INFO] [1743706494.772953037] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-8] [INFO] [1743706494.773149584] [move_group.moveit.moveit.ros.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-8] [INFO] [1743706494.778069433] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-8] [INFO] [1743706494.781654536] [move_group.moveit.moveit.ros.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-8] [WARN] [1743706494.783070485] [move_group.moveit.moveit.ros.occupancy_map_monitor]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[INFO] [spawner-9]: process started with pid [48368]
+[gazebo-3] [1;31m[Err] [UserCommands.cc:1152] [0m[1;31mError Code [0m[1;31m19[0m[1;31m: [0m[1;31mMsg: [0m[1;31mA link named robotiq_85_left_knuckle_link has invalid inertia.[0m[1;31m[0m
+[gazebo-3] [1;31m[Err] [UserCommands.cc:1152] [0m[1;31mError Code [0m[1;31m19[0m[1;31m: [0m[1;31mMsg: [0m[1;31mA link named robotiq_85_right_knuckle_link has invalid inertia.[0m[1;31m[0m
+[INFO] [spawner-10]: process started with pid [48429]
+[gazebo-3] [1;32m[Msg] [0m[1;32mServing world SDF generation service on [[0m[1;32m/world/default[0m[1;32m/[0m[1;32mgenerate_wor[1;32m[Msg] [0m[1;32mGazebo Sim GUI    v[0m[1;32m8.9.0[0m[1;32m[0m
+[gazebo-3] [1;36m[Dbg] [Gui.cc:275] [0m[1;36mWaiting for subscribers to [[0m[1;36m/gazebo/starting_world[0m[1;36m]...[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [Application.cc:96] [0m[1;36mInitializing application.[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [Application.cc:170] [0m[1;36mQt using OpenGL graphics interface[0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:657] [0m[1;36mCreate main window[0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [PathManager.cc:68] [0m[1;36mRequesting resource paths through [[0m[1;36m/gazebo/resource_paths/get[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Gui.cc:355] [0m[1;36mGUI requesting list of world names. The server may be busy [0m[1;36mdownloading resources. Please be patient.[0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [PathManager.cc:57] [0m[1;36mReceived resource paths.[0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Gui.cc:413] [0m[1;36mRequesting GUI from [[0m[1;36m/world/default/gui/info[0m[1;36m]...[0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [GuiRunner.cc:149] [0m[1;36mRequesting initial state from [[0m[1;36m/world/default/state[0m[1;36m]...[0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoading config [[0m[1;32m/home/darsh/.gz/sim/8/gui.config[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mMinimalScene[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [MinimalScene.cc:986] [0m[1;36mCreating render thread interface for OpenGL[0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [MinimalScene.cc:986] [0m[1;36mCreating render thread interface for OpenGL[0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32m3D View[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mMinimalScene[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libMinimalScene.so[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mEntityContextMenuPlugin[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCurrently tracking topic on [[0m[1;32m/gui/currently_tracked[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mEntity Context Menu[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mEntityContextMenuPlugin[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libEntityContextMenuPlugin.so[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mGzSceneManager[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mScene Manager[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mGzSceneManager[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libGzSceneManager.so[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mInteractiveViewControl[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera view controller topic advertised on [[0m[1;32m/gui/camera/view_control[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera reference visual topic advertised on [[0m[1;32m/gui/camera/view_control/reference_visual[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera view control sensitivity advertised on [[0m[1;32m/gui/camera/view_control/sensitivity[0m[1;32m][0m[1;32m[0m
+[spawner-9] [INFO] [1743706497.942226074] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mInteractive view control[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mInteractiveViewControl[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libInteractiveViewControl.so[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mCameraTracking[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mCamera tracking[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mCameraTracking[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libCameraTracking.so[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mMarkerManager[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mListening to stats on [[0m[1;32m/world/default/stats[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mMarker Manager[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mMarkerManager[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libMarkerManager.so[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mSelectEntities[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mSelect entities[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mSelectEntities[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libSelectEntities.so[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mSpawn[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mSpawn[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mSpawn[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libSpawn.so[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mVisualizationCapabilities[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView as transparent service on [[0m[1;32m/gui/view/transparent[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView as wireframes service on [[0m[1;32m/gui/view/wireframes[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView center of mass service on [[0m[1;32m/gui/view/com[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView inertia service on [[0m[1;32m/gui/view/inertia[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView collisions service on [[0m[1;32m/gui/view/collisions[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView joints service on [[0m[1;32m/gui/view/joints[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView frames service on [[0m[1;32m/gui/view/frames[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mVisualization capabilities[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mVisualizationCapabilities[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libVisualizationCapabilities.so[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mWorldControl[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mUsing world control service [[0m[1;32m/world/default/control[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mListening to stats on [[0m[1;32m/world/default/stats[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [WorldControl.cc:237] [0m[1;36mUsing an event to share WorldControl msgs with the server[0m
+[INFO] [spawner-11]: process started with pid [48450]
+[spawner-10] [INFO] [1743706499.484209648] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mWorld control[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mWorldControl[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libWorldControl.so[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mWorldStats[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mListening to stats on [[0m[1;32m/world/default/stats[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mWorld stats[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mWorldStats[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libWorldStats.so[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mShapes[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mShapes[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mShapes[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libShapes.so[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mLights[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mLights[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mLights[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libLights.so[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mTransformControl[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mTransform control[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mTransformControl[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libTransformControl.so[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mScreenshot[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mScreenshot service on [[0m[1;32m/gui/screenshot[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mScreenshot[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mScreenshot[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_gui_vendor/lib/gz-gui-8/plugins/libScreenshot.so[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mCopyPaste[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mCopy/Paste[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mCopyPaste[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libCopyPaste.so[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mComponentInspector[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mComponent inspector[0m[1;32m] to main window[0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mComponentInspector[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libComponentInspector.so[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:528] [0m[1;36mLoading plugin [[0m[1;36mEntityTree[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCurrently tracking topic on [[0m[1;32m/gui/currently_tracked[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mEntity tree[0m[1;32m] to main window[0m[1;32m[0m
+[move_group-8] [INFO] [1743706500.558876623] [move_group.moveit.moveit.ros.pointcloud_octomap_updater]: Listening to '/head_mount_kinect/depth_registered/points' using message filter with target frame 'world '
+[rviz2-7] [INFO] [1743706500.638898597] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-7] [INFO] [1743706500.639668998] [rviz2]: OpenGl version: 4.2 (GLSL 4.2)
+[rviz2-7] [INFO] [1743706500.950695018] [rviz2]: Stereo is NOT SUPPORTED
+[spawner-11] [INFO] [1743706501.559396599] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[rviz2-7] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
+[rviz2-7]          at line 321 in /opt/ros/jazzy/include/class_loader/class_loader/class_loader_core.hpp
+[rviz2-7] [WARN] [1743706501.968821829] [rcl.logging_rosout]: Publisher already registered for node name: 'rviz2'. If this is due to multiple nodes with the same name then all logs for the logger named 'rviz2' will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[move_group-8] [INFO] [1743706502.520964939] [move_group.moveit.moveit.ros.planning_pipeline]: Successfully loaded planner 'OMPL'
+[move_group-8] [INFO] [1743706502.524872975] [move_group]: Try loading adapter 'default_planning_request_adapters/ResolveConstraintFrames'
+[move_group-8] [INFO] [1743706502.528946485] [move_group]: Loaded adapter 'default_planning_request_adapters/ResolveConstraintFrames'
+[move_group-8] [INFO] [1743706502.529116606] [move_group]: Try loading adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[move_group-8] [INFO] [1743706502.531495357] [move_group]: Loaded adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[move_group-8] [INFO] [1743706502.531652202] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[move_group-8] [INFO] [1743706502.531772443] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[move_group-8] [INFO] [1743706502.531796719] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[move_group-8] [INFO] [1743706502.531848969] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[move_group-8] [INFO] [1743706502.535372764] [move_group]: Try loading adapter 'default_planning_response_adapters/AddTimeOptimalParameterization'
+[move_group-8] [INFO] [1743706502.548830605] [move_group]: Loaded adapter 'default_planning_response_adapters/AddTimeOptimalParameterization'
+[move_group-8] [INFO] [1743706502.548997881] [move_group]: Try loading adapter 'default_planning_response_adapters/ValidateSolution'
+[move_group-8] [INFO] [1743706502.560936016] [move_group]: Loaded adapter 'default_planning_response_adapters/ValidateSolution'
+[move_group-8] [INFO] [1743706502.561124912] [move_group]: Try loading adapter 'default_planning_response_adapters/DisplayMotionPath'
+[move_group-8] [INFO] [1743706502.565511259] [move_group]: Loaded adapter 'default_planning_response_adapters/DisplayMotionPath'
+[move_group-8] [INFO] [1743706502.581962429] [move_group.moveit.moveit.planners.pilz.joint_limits_aggregator]: Reading limits from namespace robot_description_planning
+[move_group-8] [INFO] [1743706502.703253505] [move_group.moveit.moveit.planners.pilz.command_planner]: Available plugins: pilz_industrial_motion_planner/PlanningContextLoaderCIRC pilz_industrial_motion_planner/PlanningContextLoaderLIN pilz_industrial_motion_planner/PlanningContextLoaderPTP 
+[move_group-8] [INFO] [1743706502.703480049] [move_group.moveit.moveit.planners.pilz.command_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderCIRC
+[move_group-8] [INFO] [1743706502.709728051] [move_group.moveit.moveit.planners.pilz.command_planner]: Registered Algorithm [CIRC]
+[move_group-8] [INFO] [1743706502.709956206] [move_group.moveit.moveit.planners.pilz.command_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderLIN
+[move_group-8] [INFO] [1743706502.714608260] [move_group.moveit.moveit.planners.pilz.command_planner]: Registered Algorithm [LIN]
+[move_group-8] [INFO] [1743706502.714842105] [move_group.moveit.moveit.planners.pilz.command_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderPTP
+[move_group-8] [INFO] [1743706502.719208727] [move_group.moveit.moveit.planners.pilz.command_planner]: Registered Algorithm [PTP]
+[move_group-8] [INFO] [1743706502.719433469] [move_group.moveit.moveit.ros.planning_pipeline]: Successfully loaded planner 'Pilz Industrial Motion Planner'
+[move_group-8] [INFO] [1743706502.723237195] [move_group]: Try loading adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[move_group-8] [INFO] [1743706502.727059032] [move_group]: Loaded adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[move_group-8] [INFO] [1743706502.727253429] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[move_group-8] [INFO] [1743706502.727472481] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[move_group-8] [INFO] [1743706502.727525679] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[move_group-8] [INFO] [1743706502.727592817] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[move_group-8] [WARN] [1743706502.727612636] [move_group.moveit.moveit.ros.planning_pipeline]: No planning response adapter names specified.
+[gazebo-3] [1;33m[GUI] [Wrn] [Application.cc:908] [0m[1;33m[QT] file::/WorldStats/WorldStats.qml:53:3: QML RowLayout: Binding loop detected for property "x"[0m[1;33m[0m
+[move_group-8] [INFO] [1743706503.479415984] [move_group.moveit.moveit.plugins.simple_controller_manager]: Added FollowJointTrajectory controller for arm_controller
+[move_group-8] [INFO] [1743706503.480078092] [move_group.moveit.moveit.plugins.simple_controller_manager]: gripper_controller will command a max effort of: 0
+[move_group-8] [INFO] [1743706503.518009055] [move_group.moveit.moveit.plugins.simple_controller_manager]: Added GripperCommand controller for gripper_controller
+[move_group-8] [INFO] [1743706503.548513635] [move_group.moveit.moveit.plugins.simple_controller_manager]: Added FollowJointTrajectory controller for arm_with_gripper_controller
+[move_group-8] [INFO] [1743706503.549451511] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 3 controllers in list
+[move_group-8] [INFO] [1743706503.549606085] [move_group.moveit.moveit.plugins.simple_controller_manager]: Returned 3 controllers in list
+[move_group-8] [INFO] [1743706503.554137666] [move_group.moveit.moveit.ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[move_group-8] [INFO] [1743706503.554345629] [move_group]: MoveGroup debug mode is ON
+[move_group-8] [INFO] [1743706503.771882480] [move_group.moveit.moveit.planners.pilz.move_group_sequence_action]: initialize move group sequence action
+[move_group-8] [INFO] [1743706503.803451155] [move_group.moveit.moveit.planners.pilz.joint_limits_aggregator]: Reading limits from namespace robot_description_planning
+[move_group-8] [INFO] [1743706503.804507285] [move_group.moveit.moveit.planners.pilz.joint_limits_aggregator]: Reading limits from namespace robot_description_planning
+[move_group-8] [INFO] [1743706503.811939927] [move_group.moveit.moveit.ros.move_group.executable]: 
+[move_group-8] 
+[move_group-8] ********************************************************
+[move_group-8] * MoveGroup using: 
+[move_group-8] *     - apply_planning_scene_service
+[move_group-8] *     - clear_octomap_service
+[move_group-8] *     - get_group_urdf
+[move_group-8] *     - load_geometry_from_file
+[move_group-8] *     - CartesianPathService
+[move_group-8] *     - execute_trajectory_action
+[move_group-8] *     - get_planning_scene_service
+[move_group-8] *     - kinematics_service
+[move_group-8] *     - move_action
+[move_group-8] *     - motion_plan_service
+[move_group-8] *     - query_planners_service
+[move_group-8] *     - state_validation_service
+[move_group-8] *     - save_geometry_to_file
+[move_group-8] *     - SequenceAction
+[move_group-8] *     - SequenceService
+[move_group-8] ********************************************************
+[move_group-8] 
+[move_group-8] [INFO] [1743706503.812276197] [move_group.moveit.moveit.ros.move_group.context]: MoveGroup context using pipeline ompl
+[move_group-8] [INFO] [1743706503.812343148] [move_group.moveit.moveit.ros.move_group.context]: MoveGroup context initialization complete
+[move_group-8] [96mLoading 'move_group/ApplyPlanningSceneService'...[0m
+[move_group-8] [96mLoading 'move_group/ClearOctomapService'...[0m
+[move_group-8] [96mLoading 'move_group/GetUrdfService'...[0m
+[move_group-8] [96mLoading 'move_group/LoadGeometryFromFileService'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupCartesianPathService'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupGetPlanningSceneService'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupKinematicsService'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupMoveAction'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupPlanService'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupQueryPlannersService'...[0m
+[move_group-8] [96mLoading 'move_group/MoveGroupStateValidationService'...[0m
+[move_group-8] [96mLoading 'move_group/SaveGeometryToFileService'...[0m
+[move_group-8] [96mLoading 'pilz_industrial_motion_planner/MoveGroupSequenceAction'...[0m
+[move_group-8] [96mLoading 'pilz_industrial_motion_planner/MoveGroupSequenceService'...[0m
+[move_group-8] 
+[move_group-8] [92mYou can start planning now![0m
+[move_group-8] 
+[gazebo-3] libEGL warning: failed to open /dev/dri/renderD128: Permission denied
+[gazebo-3] 
+[gazebo-3] libEGL warning: failed to open /dev/dri/renderD128: Permission denied
+[gazebo-3] 
+[gazebo-3] libEGL warning: failed to open /dev/dri/card0: Permission denied
+[gazebo-3] 
+[rviz2-7] [ERROR] [1743706505.257067017] [rviz2.moveit.ros.motion_planning_frame]: Action server: /recognize_objects not available
+[rviz2-7] [INFO] [1743706505.406471170] [rviz2.moveit.ros.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[rviz2-7] [INFO] [1743706505.582313082] [rviz2.moveit.ros.rdf_loader]: Loaded robot model in 0 seconds
+[rviz2-7] [INFO] [1743706505.582763552] [rviz2.moveit.core.robot_model]: Loading robot model 'ur'...
+[rviz2-7] [INFO] [1743706505.582906375] [rviz2.moveit.core.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[rviz2-7] [ERROR] [1743706506.185210760] [rviz2.moveit.kinematics.kdl_kinematics_plugin]: Group 'arm' is not a chain
+[rviz2-7] [ERROR] [1743706506.185641514] [rviz2.moveit.ros.kinematics_plugin_loader]: Kinematics solver of type 'kdl_kinematics_plugin/KDLKinematicsPlugin' could not be initialized for group 'arm'
+[rviz2-7] [ERROR] [1743706506.185864857] [rviz2.moveit.ros.robot_model_loader]: Kinematics solver could not be instantiated for joint group arm.
+[rviz2-7] [INFO] [1743706507.837439754] [rviz2.moveit.ros.planning_scene_monitor]: Starting planning scene monitor
+[rviz2-7] [INFO] [1743706507.842480149] [rviz2.moveit.ros.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[spawner-9] [WARN] [1743706507.960811395] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743706507.962463883] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[rviz2-7] [ERROR] [1743706509.337297016] [rviz2]: The link robotiq_85_left_knuckle_link has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-7] 
+[rviz2-7] [ERROR] [1743706509.339613610] [rviz2]: The link robotiq_85_right_knuckle_link has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-7] 
+[spawner-10] [WARN] [1743706509.503572253] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743706509.505794998] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[rviz2-7] [ERROR] [1743706510.548454590] [rviz2]: The link robotiq_85_left_knuckle_link has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-7] 
+[rviz2-7] [ERROR] [1743706510.549977910] [rviz2]: The link robotiq_85_right_knuckle_link has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-7] 
+[rviz2-7] [INFO] [1743706510.614311513] [interactive_marker_display_94365826081392]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[rviz2-7] [ERROR] [1743706510.617770219] [rviz2]: The link robotiq_85_left_knuckle_link has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-7] 
+[rviz2-7] [ERROR] [1743706510.619660286] [rviz2]: The link robotiq_85_right_knuckle_link has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-7] 
+[rviz2-7] [ERROR] [1743706510.627914964] [rviz2]: The link robotiq_85_left_knuckle_link has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-7] 
+[rviz2-7] [ERROR] [1743706510.629676186] [rviz2]: The link robotiq_85_right_knuckle_link has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-7] 
+[rviz2-7] [INFO] [1743706510.637818394] [rviz2.moveit.ros.robot_interaction]: No active joints or end effectors found for group 'arm'. Make sure that kinematics.yaml is loaded in this node's namespace.
+[rviz2-7] [INFO] [1743706510.659093898] [rviz2.moveit.ros.motion_planning_frame]: group arm
+[rviz2-7] [INFO] [1743706510.659297690] [rviz2.moveit.ros.motion_planning_frame]: Constructing new MoveGroup connection for group 'arm' in namespace ''
+[rviz2-7] [INFO] [1743706510.794925484] [rviz2.moveit.ros.move_group_interface]: Ready to take commands for planning group arm.
+[rviz2-7] [INFO] [1743706511.058220961] [interactive_marker_display_94365826081392]: Sending request for interactive markers
+[rviz2-7] [INFO] [1743706511.230110324] [interactive_marker_display_94365826081392]: Service response received for initialization
+[spawner-11] [WARN] [1743706511.578179536] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743706511.579915730] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743706517.982082784] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743706517.984245690] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743706519.524908060] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743706519.526974010] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743706522.561411784] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743706522.563326467] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743706528.963137769] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743706528.964743835] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743706530.506038668] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743706530.508101057] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743706532.584039679] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743706532.585533267] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743706538.985680721] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743706538.988079197] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743706540.528357265] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743706540.531508076] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743706542.605605384] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743706542.607351632] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743706549.009261663] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743706549.012376757] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743706550.575989156] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743706550.579340084] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743706552.629390775] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743706552.631976703] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743706560.024140615] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743706560.026671640] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707095.283546059] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707095.284749456] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707097.338063283] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707097.340478751] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707103.794456940] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707103.795955362] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707105.299717729] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707105.300828144] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707107.357359867] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707107.358405955] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707113.807529914] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707113.808238970] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707115.309766471] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707115.310278258] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707117.367631120] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707117.368227702] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707123.825349734] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707123.825964081] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707125.328581747] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707125.329912273] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707127.386247529] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707127.386896229] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707133.840188994] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707133.840714594] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707135.340500630] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707135.340955930] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707137.396132721] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707137.396657821] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707143.848933940] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707143.849327139] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707145.349326399] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707145.349733297] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707147.405449244] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707147.405846944] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707153.856717431] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707153.857154731] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707155.357848880] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707155.358675381] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707157.414232553] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707157.414769653] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707163.865288845] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707163.865717545] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707165.366237219] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707165.366648219] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707167.422722056] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707167.423186957] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707173.874967886] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707173.875754286] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707175.375879007] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707175.376709506] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707177.433351001] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707177.434375301] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707183.885217903] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707183.885803502] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707185.385975381] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707185.386520681] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707187.443509933] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707187.443997032] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707193.895891124] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707193.896683175] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707195.396607757] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707195.397123981] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707197.454003337] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707197.455013823] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707203.905483538] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707203.905910987] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707205.405929880] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707205.406451092] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707207.464153770] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707207.464738911] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707213.914717213] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707213.915703847] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707215.415767832] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707215.416357884] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707217.474969835] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707217.475412222] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707223.925518444] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707223.925981074] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707225.425604869] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707225.426035102] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707227.483790680] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707227.484277910] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707233.933869082] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707233.934342238] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707235.433771582] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707235.434306145] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707237.491699931] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707237.492450645] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707243.941731474] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707243.942291432] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707245.441851596] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707245.442274735] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707247.500305490] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707247.500812131] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707253.949570904] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707253.950023829] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707255.449707387] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707255.450119906] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707257.508510012] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707257.508970131] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707263.959116701] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707263.960306817] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707265.458607310] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707265.459060115] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707267.517969304] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707267.518408708] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707273.968706902] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707273.969295299] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707275.467410505] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707275.467817502] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707277.526634305] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707277.527054502] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707283.979034379] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707283.979897756] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707285.478450047] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707285.478954833] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707287.536666678] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707287.537435188] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707293.989510052] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707293.989941313] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707295.487841129] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707295.488314707] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707297.546452351] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707297.547068156] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707303.998047401] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707303.998585203] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707305.497083256] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707305.497587527] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707307.555207923] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707307.555775458] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707314.007225410] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707314.008108523] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707315.505754763] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707315.506342234] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707317.564152034] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707317.565290208] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707324.017287432] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707324.017908008] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707325.514757113] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707325.515218211] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707327.573925479] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707327.574448465] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707334.026098819] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707334.026638453] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707335.523106647] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707335.523573341] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707337.582614091] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707337.583143573] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707344.034238851] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707344.034682502] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707345.531530230] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707345.532035097] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-11] [WARN] [1743707347.591052138] [spawner_gripper_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-11] [INFO] [1743707347.591497077] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-9] [WARN] [1743707354.042307773] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-9] [INFO] [1743707354.042869916] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[spawner-10] [WARN] [1743707355.540604978] [spawner_arm_controller]: Could not contact service /controller_manager/list_controllers
+[spawner-10] [INFO] [1743707355.541698064] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[rviz2-7] [INFO] [1743707356.366309493] [rclcpp]: signal_handler(signum=2)
+[ros2_control_node-6] [INFO] [1743707356.366345483] [rclcpp]: signal_handler(signum=2)
+[parameter_bridge-4] [INFO] [1743707356.366345682] [rclcpp]: signal_handler(signum=2)
+[move_group-8] [INFO] [1743707356.366432557] [rclcpp]: signal_handler(signum=2)
+[static_transform_publisher-1] [INFO] [1743707356.366463748] [rclcpp]: signal_handler(signum=2)
+[robot_state_publisher-2] [INFO] [1743707356.366554321] [rclcpp]: signal_handler(signum=2)
+[ros2_control_node-6] [INFO] [1743707356.367584720] [controller_manager]: Shutdown request received....
+[ros2_control_node-6] [INFO] [1743707356.367776564] [controller_manager]: Shutting down all controllers in the controller manager.
+[ros2_control_node-6] [INFO] [1743707356.367904926] [controller_manager]: Shutting down the controller manager.
+[ros2_control_node-6] terminate called after throwing an instance of 'std::runtime_error'
+[ros2_control_node-6]   what():  context cannot be slept with because it's invalid
+[ros2_control_node-6] Stack trace (most recent call last):
+[ros2_control_node-6] [ERROR] [1743707356.371088395] [controller_manager.pal_statistics]: Exception in publisher thread: context cannot be slept with because it's invalid!. Aborting!
+[ros2_control_node-6] #13   Object "", at 0xffffffffffffffff, in 
+[ros2_control_node-6] #12   Object "/opt/ros/jazzy/lib/controller_manager/ros2_control_node", at 0x559a0661aef4, in _start
+[ros2_control_node-6] #11   Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7fbb2d13a28a, in __libc_start_main
+[ros2_control_node-6] #10   Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7fbb2d13a1c9, in 
+[ros2_control_node-6] #9    Object "/opt/ros/jazzy/lib/controller_manager/ros2_control_node", at 0x559a06619bde, in main
+[ros2_control_node-6] #8    Object "/opt/ros/jazzy/lib/librclcpp.so", at 0x7fbb2d6f1d38, in rclcpp::Clock::sleep_for(rclcpp::Duration, std::shared_ptr<rclcpp::Context>)
+[ros2_control_node-6] #7    Object "/opt/ros/jazzy/lib/librclcpp.so", at 0x7fbb2d6b6f5b, in 
+[ros2_control_node-6] #6    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33", at 0x7fbb2d40b390, in __cxa_throw
+[ros2_control_node-6] #5    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33", at 0x7fbb2d3f5a54, in std::terminate()
+[ros2_control_node-6] #4    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33", at 0x7fbb2d40b0d9, in 
+[ros2_control_node-6] #3    Object "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33", at 0x7fbb2d3f5ff4, in 
+[ros2_control_node-6] #2    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7fbb2d1388fe, in abort
+[ros2_control_node-6] #1    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7fbb2d15527d, in raise
+[ros2_control_node-6] #0    Object "/usr/lib/x86_64-linux-gnu/libc.so.6", at 0x7fbb2d1aeb2c, in pthread_kill
+[ros2_control_node-6] Aborted (Signal sent by tkill() 48166 1000)
+[rviz2-7] [WARN] [1743707356.393688084] [interactive_marker_display_94365826081392]: Server not available while running, resetting
+[move_group-8] Stack trace (most recent call last):
+[rviz2-7] [INFO] [1743707356.499045065] [rviz2.moveit.ros.planning_scene_monitor]: Stopping planning scene monitor
+[INFO] [parameter_bridge-4]: process has finished cleanly [pid 48163]
+[move_group-8] #6    Object "", at 0xffffffffffffffff, in 
+[INFO] [robot_state_publisher-2]: process has finished cleanly [pid 48161]
+[INFO] [static_transform_publisher-1]: process has finished cleanly [pid 48160]
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[ERROR] [spawner-10]: process has died [pid 48429, exit code -2, cmd '/opt/ros/jazzy/lib/controller_manager/spawner arm_controller --ros-args'].
+[ERROR] [spawner-11]: process has died [pid 48450, exit code -2, cmd '/opt/ros/jazzy/lib/controller_manager/spawner gripper_controller --ros-args'].
+[ERROR] [spawner-9]: process has died [pid 48368, exit code -2, cmd '/opt/ros/jazzy/lib/controller_manager/spawner joint_state_broadcaster --ros-args'].
+[ERROR] [move_group-8]: process has died [pid 48169, exit code -2, cmd '/opt/ros/jazzy/lib/moveit_ros_move_group/move_group --ros-args --params-file /tmp/launch_params_o5ysxx3i --params-file /tmp/launch_params_oxvq23pa'].
+[ERROR] [rviz2-7]: process has died [pid 48168, exit code -2, cmd '/opt/ros/jazzy/lib/rviz2/rviz2 -d /home/darsh/UR_GRIPPER/install/moveit_config/share/moveit_config/rviz/moveit.rviz --ros-args -r __node:=rviz2 --params-file /tmp/launch_params_2y0q396m --params-file /tmp/launch_params_d43bpaiy --params-file /tmp/launch_params_chvgtns4 --params-file /tmp/launch_params_jps6sa47 --params-file /tmp/launch_params_1y5fo0r9 --params-file /tmp/launch_params_g7a08idg'].
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mEntityTree[0m[1;32m] from path [[0m[1;32m/opt/ros/jazzy/opt/gz_sim_vendor/lib/gz-sim-8/plugins/gui/libEntityTree.so[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:398] [0m[1;36mLoading window config[0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mUsing server control service [[0m[1;32m/server_control[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:671] [0m[1;36mApplying config[0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [MinimalScene.cc:802] [0m[1;36mCreating gz-rendering interface for OpenGL[0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [MinimalScene.cc:986] [0m[1;36mCreating render thread interface for OpenGL[0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoading plugin [[0m[1;32mgz-rendering-ogre2[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [MinimalScene.cc:749] [0m[1;36mCreate scene [[0m[1;36mscene[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [MinimalScene.cc:1037] [0m[1;36mCreating texture node render interface for OpenGL[0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [TransformControl.cc:453] [0m[1;36mTransformControl plugin is using camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Spawn.cc:308] [0m[1;36mSpawn plugin is using camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [SelectEntities.cc:452] [0m[1;36mSelectEntities plugin is using camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [MarkerManager.cc:169] [0m[1;36mAdvertise [0m[1;36m/marker[0m[1;36m/list service.[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [MarkerManager.cc:179] [0m[1;36mAdvertise [0m[1;36m/marker[0m[1;36m/list.[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [MarkerManager.cc:189] [0m[1;36mAdvertise [0m[1;36m/marker[0m[1;36m_array.[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [CameraTracking.cc:205] [0m[1;36mCameraTrackingPrivate plugin is moving camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mMove to service on [[0m[1;32m/gui/move_to[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mFollow service on [[0m[1;32m/gui/follow[0m[1;32m] (deprecated)[0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mTracking topic on [[0m[1;32m/gui/track[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mTracking status topic on [[0m[1;32m/gui/currently_tracked[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mMove to pose service on [[0m[1;32m/gui/move_to/pose[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera pose topic advertised on [[0m[1;32m/gui/camera/pose[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mFollow offset service on [[0m[1;32m/gui/follow/offset[0m[1;32m] (deprecated)[0m[1;32m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [InteractiveViewControl.cc:176] [0m[1;36mInteractiveViewControl plugin is moving camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [EntityContextMenuPlugin.cc:79] [0m[1;36mEntity context menu plugin is using camera [[0m[1;36mscene::Camera(65527)[0m[1;36m][0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [SignalHandler.cc:142] [0m[1;36mReceived signal[[0m[1;36m2[0m[1;36m].[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Gui.cc:535] [0m[1;36mShutting down gz-sim-gui[0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [Application.cc:237] [0m[1;36mTerminating application.[0m[1;36m[0m
+[gazebo-3] [1;36m[GUI] [Dbg] [MinimalScene.cc:841] [0m[1;36mDestroy scene [[0m[1;36mscene[0m[1;36m][0m[1;36m[0m
+[gazebo-3] ld_sdf[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServing world names on [[0m[1;32m/gazebo/worlds[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mResource path add service on [[0m[1;32m/gazebo/resource_paths/add[0m[1;32m].[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mResource path get service on [[0m[1;32m/gazebo/resource_paths/get[0m[1;32m].[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mResource path resolve service on [[0m[1;32m/gazebo/resource_paths/resolve[0m[1;32m].[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mResource paths published on [[0m[1;32m/gazebo/resource_paths[0m[1;32m].[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServer control service on [[0m[1;32m/server_control[0m[1;32m].[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mFound no publishers on /stats, adding root stats topic[0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mFound no publishers on /clock, adding root clock topic[0m[1;32m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:533] [0m[1;36mCreating PostUpdate worker threads: [0m[1;36m3[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:544] [0m[1;36mCreating postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:544] [0m[1;36mCreating postupdate worker thread ([0m[1;36m1[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-3] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-3] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-3] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mcheezit_big_original_collision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-3] [1;36m[Dbg] [SDFFeatures.cc:332] [0m[1;36mMesh construction from an SDF has not been implemented yet for [0m[1;36mdartsim. Use AttachMeshShapeFeature to use mesh shapes.[0m
+[gazebo-3] [1;36m[Dbg] [SDFFeatures.cc:864] [0m[1;36mThe geometry element of collision [[0m[1;36mcollision[0m[1;36m] [0m[1;36mcouldn't be created[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServing scene information on [[0m[1;32m/world/default[0m[1;32m/[0m[1;32mscene/info[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServing graph information on [[0m[1;32m/world/default[0m[1;32m/[0m[1;32mscene/graph[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServing full state on [[0m[1;32m/world/default[0m[1;32m/[0m[1;32mstate[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mServing full state (async) on [[0m[1;32m/world/default[0m[1;32m/[0m[1;32mstate_async[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mPublishing scene information on [[0m[1;32m/world/default/scene/info[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mPublishing entity deletions on [[0m[1;32m/world/default/scene/deletion[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mPublishing state changes on [[0m[1;32m/world/default/state[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mPublishing pose messages on [[0m[1;32m/world/default[0m[1;32m/[0m[1;32mpose/info[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;32m[Msg] [0m[1;32mPublishing dynamic pose messages on [[0m[1;32m/world/default[0m[1;32m/[0m[1;32mdynamic_pose/info[0m[1;32m][0m[1;32m[0m
+[gazebo-3] [1;36m[Dbg] [EntityComponentManager.cc:1656] [0m[1;36mUpdated state thread iterators: [0m[1;36m16[0m[1;36m threads processing around [0m[1;36m2[0m[1;36m entities each.[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SignalHandler.cc:142] [0m[1;36mReceived signal[[0m[1;36m2[0m[1;36m].[0m
+[gazebo-3] [1;36m[Dbg] [ServerPrivate.cc:122] [0m[1;36mServer received signal[[0m[1;36m2[0m[1;36m][0m
+[gazebo-3] [1;36m[Dbg] [Sensors.cc:565] [0m[1;36mSensorsPrivate::Stop[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [Sensors.cc:391] [0m[1;36mRendering Thread initialized[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [Sensors.cc:551] [0m[1;36mSensorsPrivate::RenderThread stopped[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [gz.cc:434] [0m[1;36mShutting down gz-sim-server[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [SimulationRunner.cc:560] [0m[1;36m[Dbg] [SimulationRunner.cc:560] Exiting postupdate worker thread ([0m[1;36m1[0m[1;36mExiting postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m1[0m[1;36m)[0m[1;36m[0m
+[gazebo-3] [1;36m[Dbg] [Sensors.cc:565] [0m[1;36mSensorsPrivate::Stop[0m[1;36m[0m
+[gazebo-3] /opt/ros/jazzy/opt/gz_sim_vendor/lib/ruby/gz/cmdsim8.rb:201:in `kill': No such process (Errno::ESRCH)
+[gazebo-3] 	from /opt/ros/jazzy/opt/gz_sim_vendor/lib/ruby/gz/cmdsim8.rb:201:in `killProcess'
+[gazebo-3] 	from /opt/ros/jazzy/opt/gz_sim_vendor/lib/ruby/gz/cmdsim8.rb:569:in `handle_signal'
+[gazebo-3] 	from /opt/ros/jazzy/opt/gz_sim_vendor/lib/ruby/gz/cmdsim8.rb:574:in `block in execute'
+[gazebo-3] /opt/ros/jazzy/opt/gz_sim_vendor/lib/ruby/gz/cmdsim8.rb:201:in `kill': No such process (Errno::ESRCH)
+[gazebo-3] 	from /opt/ros/jazzy/opt/gz_sim_vendor/lib/ruby/gz/cmdsim8.rb:201:in `killProcess'
+[gazebo-3] 	from /opt/ros/jazzy/opt/gz_sim_vendor/lib/ruby/gz/cmdsim8.rb:569:in `handle_signal'
+[gazebo-3] 	from /opt/ros/jazzy/opt/gz_sim_vendor/lib/ruby/gz/cmdsim8.rb:574:in `block in execute'
+[gazebo-3] 	from /opt/ros/jazzy/opt/gz_sim_vendor/lib/ruby/gz/cmdsim8.rb:584:in `wait2'
+[gazebo-3] 	from /opt/ros/jazzy/opt/gz_sim_vendor/lib/ruby/gz/cmdsim8.rb:584:in `execute'
+[gazebo-3] 	from /opt/ros/jazzy/opt/gz_tools_vendor/bin/gz:316:in `<main>'
+[ERROR] [gazebo-3]: process has died [pid 48162, exit code -2, cmd 'ruby $(which gz) sim -r -v 4 /home/darsh/UR_GRIPPER/install/ur_gazebo/share/ur_gazebo/worlds/pick_and_place_demo.world --force-version 8'].
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[ERROR] [ros2_control_node-6]: process has died [pid 48166, exit code -6, cmd '/opt/ros/jazzy/lib/controller_manager/ros2_control_node --ros-args --params-file /tmp/launch_params_y23w_ki2 --params-file /home/darsh/UR_GRIPPER/install/moveit_config/share/moveit_config/config/ros2_controllers.yaml --params-file /tmp/launch_params_jtugsfvx'].

@@ -25,8 +25,15 @@
 /home/darsh/UR_GRIPPER/install/moveit_config/share/moveit_config/config/initial_positions.yaml
 /home/darsh/UR_GRIPPER/install/moveit_config/share/moveit_config/config/ur.ros2_control.xacro
 /home/darsh/UR_GRIPPER/install/moveit_config/share/moveit_config/config/kinematics.yaml
+/home/darsh/UR_GRIPPER/install/moveit_config/share/moveit_config/config/stomp_planning.yaml
+/home/darsh/UR_GRIPPER/install/moveit_config/share/moveit_config/config/pilz_industrial_motion_planner_planning.yaml
 /home/darsh/UR_GRIPPER/install/moveit_config/share/moveit_config/config/joint_limits.yaml
+/home/darsh/UR_GRIPPER/install/moveit_config/share/moveit_config/config/ros2_controllers.yaml
 /home/darsh/UR_GRIPPER/install/moveit_config/share/moveit_config/config/ur.srdf
+/home/darsh/UR_GRIPPER/install/moveit_config/share/moveit_config/config/moveit_controllers.yaml
+/home/darsh/UR_GRIPPER/install/moveit_config/share/moveit_config/config/ompl_planning.yaml
 /home/darsh/UR_GRIPPER/install/moveit_config/share/moveit_config/config/pilz_cartesian_limits.yaml
 /home/darsh/UR_GRIPPER/install/moveit_config/share/moveit_config/config/ur.urdf.xacro
+/home/darsh/UR_GRIPPER/install/moveit_config/share/moveit_config/config/sensors_3d.yaml
+/home/darsh/UR_GRIPPER/install/moveit_config/share/moveit_config/rviz/moveit.rviz
 /home/darsh/UR_GRIPPER/install/moveit_config/share/moveit_config/.setup_assistant

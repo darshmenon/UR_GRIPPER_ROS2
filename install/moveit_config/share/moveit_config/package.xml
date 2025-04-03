@@ -6,6 +6,7 @@
   <description>
      An automatically generated package with all the configuration and launch files for using the ur with the MoveIt Motion Planning Framework
   </description>
+  <maintainer email="darshmenon02@gmail.com">darsh</maintainer>
 
   <license>BSD-3-Clause</license>
 
@@ -13,8 +14,7 @@
   <url type="bugtracker">https://github.com/moveit/moveit2/issues</url>
   <url type="repository">https://github.com/moveit/moveit2</url>
 
-<maintainer email="your_email@example.com">Your Name</maintainer>
-<author email="your_email@example.com">Your Name</author>
+  <author email="darshmenon02@gmail.com">darsh</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

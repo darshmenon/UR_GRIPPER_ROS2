@@ -41,7 +41,7 @@ def generate_launch_description():
     # Package names
     package_name_gazebo = 'ur_gazebo'
     package_name_description = 'ur_description'
-    package_name_moveit = 'movit_config'
+    package_name_moveit = 'moveit_config'
 
     # Default values
     default_robot_name = 'ur'
@@ -57,7 +57,7 @@ def generate_launch_description():
     moveit_config_share = FindPackageShare(package=moveit_config_pkg).find(moveit_config_pkg)
 
     # File Path Configuration
-    urdf_path = os.path.join(moveit_config_share, "config", "ur.urdf")
+    xacro_path = os.path.join(moveit_config_share, "config", "ur.urdf.xacrp")
     srdf_path = os.path.join(moveit_config_share, "config", "ur.srdf")
     moveit_controllers_path = os.path.join(moveit_config_share, "config", "moveit_controllers.yaml")
     joint_limits_path = os.path.join(moveit_config_share, "config", "joint_limits.yaml")
@@ -74,6 +74,7 @@ def generate_launch_description():
     # Set paths
     gazebo_models_path = os.path.join(pkg_share_gazebo, gazebo_models_path)
     default_ros_gz_bridge_config_file_path = os.path.join(pkg_share_gazebo, ros_gz_bridge_config_file_path)
+    urdf_path = os.path.join(pkg_share_moveit, "config", "ur.urdf")
 
     # Launch Configurations
     world_file = LaunchConfiguration('world_file')
@@ -83,6 +84,11 @@ def generate_launch_description():
     robot_name = LaunchConfiguration('robot_name')
     use_robot_state_pub = LaunchConfiguration('use_robot_state_pub')
 
+    static_tf_pub_node = Node(
+        package="tf2_ros",
+        executable="static_transform_publisher",
+        arguments=["0", "0", "0", "0", "0", "0", "world", "base_link"],
+    )
     # Declare launch arguments
     declared_arguments = [
         DeclareLaunchArgument("robot_name", default_value=default_robot_name, description="The name for the robot"),
@@ -98,19 +104,27 @@ def generate_launch_description():
 
     # Create launch description
     ld = LaunchDescription(declared_arguments)
-    
-    # Use pkg_share_description for the URDF xacro file
-    urdf_xacro_path = os.path.join(moveit_config_share, "config", "ur.urdf.xacro")
 
+
+    # Use pkg_share_description for the URDF xacro file
+    urdf_xacro_path = os.path.join(ur_description_share, "urdf", "ur.urdf.xacro")
     robot_description_content = Command([
-        PathJoinSubstitution([FindExecutable(name="xacro")]), " ", urdf_xacro_path,
-        " safety_limits:=", LaunchConfiguration("safety_limits"),
-        " safety_pos_margin:=", LaunchConfiguration("safety_pos_margin"),
-        " safety_k_position:=", LaunchConfiguration("safety_k_position"),
-        " name:=ur",
-        " ur_type:=", LaunchConfiguration("ur_type"),
-        " tf_prefix:=", LaunchConfiguration("tf_prefix")
-    ])
+    FindExecutable(name="xacro"),
+    " ",
+    urdf_xacro_path
+])
+
+
+    # robot_description = {"robot_description": ParameterValue(robot_description_content, value_type=str)}
+    # robot_description_content = Command([
+    #     PathJoinSubstitution([FindExecutable(name="xacro")]), " ", urdf_xacro_path,
+    #     " safety_limits:=", LaunchConfiguration("safety_limits"),
+    #     " safety_pos_margin:=", LaunchConfiguration("safety_pos_margin"),
+    #     " safety_k_position:=", LaunchConfiguration("safety_k_position"),
+    #     " name:=ur",
+    #     " ur_type:=", LaunchConfiguration("ur_type"),
+    #     " tf_prefix:=", LaunchConfiguration("tf_prefix")
+    # ])
     robot_description = {'robot_description': ParameterValue(robot_description_content, value_type=str)}
     joint_state_publisher_node = Node(
         package="joint_state_publisher_gui",
@@ -177,7 +191,7 @@ def generate_launch_description():
     # controllers = ['joint_state_broadcaster', 'arm_controller', 'grip_action_controller']
     # delays = [3.0, 5.0, 7.0]  # Adjust delays as needed (seconds)
 
-    controllers = ["joint_state_broadcaster", "arm_controller", "grip_action_controller"]
+    controllers = ["joint_state_broadcaster", "arm_controller", "gripper_controller"]
     delays = [3.0, 5.0, 7.0]
 
     for controller, delay in zip(controllers, delays):
@@ -270,6 +284,7 @@ def generate_launch_description():
         output="screen",
         parameters=[moveit_config.to_dict(), {"use_sim_time": use_sim_time}],
     )
+    ld.add_action(static_tf_pub_node)
 
     ld.add_action(set_env_vars_resources)
     ld.add_action(robot_state_publisher_cmd)
@@ -279,5 +294,6 @@ def generate_launch_description():
     ld.add_action(controller_manager_node)
     ld.add_action(rviz_node)
     ld.add_action(move_group_node)
+
 
     return ld
